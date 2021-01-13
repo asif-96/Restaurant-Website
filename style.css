@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* Utility Classes */
+
+h1{
+    color: #ffeaa7;
+}
+
+.head-text{
+    color: #d63031;
+}
+
+.btn-contact{
+    text-decoration: none;
+    color: #ffeaa7;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #ffeaa7;
+    padding: 10px;
+}
+
+.btn-contact:hover{
+    background-color: #ffeaa7;
+    color: #232323;
+    transition: all 0.5s ease;
+}
+
+.btn-subscribe{
+    text-decoration: none;
+    color: #fff;
+    background-color: #d63031;
+    padding: 14px 30px;
+}
+
+.btn-subscribe:hover{
+    background-color: #eb4d4b;
+    transition: all 0.5s ease;
+}
+
+.slide-text{
+    color: #d63031;
+}
+
+.about-header{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: #2d3436;
+    font-size: 40px;
+}
+
+.Jhakanaka{
+    color: #d63031;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.food-item-title{
+    color: #d63031;
+    margin: 25px 0px;
+}
+
+.food-item-description{
+    color: dimgray;
+    line-height: 1.3;
+}
+
+.service-txt{
+    text-align: center;
+    color: #2d3436;
+    font-size: 40px;
+}
+
+.box-margin{
+    margin-right: 0px;
+}
+
+.service-box-title{
+    color: #1A6692;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service-box-description{
+    text-align: center;
+    color: dimgray;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.section-bg{
+    background-color: #F8F9FA;
+}
+
+
+/* Header Design */
+
+header{
+    width: 100%;
+    background-color: #232323;
+    text-transform: uppercase;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffeaa7;
+}
+
+.navbar-list{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+/* Top Section Design */
+
+.slide-animation{
+    width: 100%;
+    height: 550px;
+    animation: animatedSlide 10s linear infinite alternate;
+}
+
+@keyframes animatedSlide{
+    0%{
+        background: url('images/hero_1.jpg') no-repeat center/cover;
+    }
+    100%{
+        background: url('images/hero_2.jpg') no-repeat center/cover;
+    }
+}
+
+#slide-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.welcome-slide-body{
+    font-size: 50px;
+}
+
+/* About Section Design */
+
+.about-section{
+    width: 100%;
+}
+
+#about-main{
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-txt{
+    width: 500px;   
+    padding: 30px;
+}
+
+.about-txt p{
+    margin: 10px 0px;
+    color: dimgray;
+    text-align: center;
+}
+
+.about-img{
+    width: 500px;
+    box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.75);
+}
+
+.about-img img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* Food Section Design */
+
+section{
+    width: 100%;
+}
+
+.food-type{
+    width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+/* Service Section Design */
+
+.services{
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.box{
+    width: 400px;
+    display: block;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
+.box img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* Subscribe Section Design */
+.subscribe{
+    width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.subscribe h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.subscribe p{
+    color: dimgray;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.subscribe input{
+    width: 400px;
+    border: 2px solid dimgrey;
+    padding: 16px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+/* Footer Section Design*/
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer p{
+    color: #232323;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #223322;
+    font-weight: bold;
+    border: 2px solid #232323;
+    border-radius: 50%;
+    padding: 20px 15px;
+}
