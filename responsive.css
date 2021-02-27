@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+    /* Header and Nav Section */
+    .navbar{
+        flex-direction: column;
+        width: 100%;
+        height: 350px;
+        padding: 15px 0px;
+    }
+
+    .navbar h1{
+        border-bottom: 2px solid #ffeaa7;
+    }
+    .navbar-list{
+        flex-direction: column;
+        margin: 1rem 0rem;
+    }
+
+    .navbar ul li{
+        margin: 10px 0px;
+    }
+
+    /* Slide Section */
+    .slide-animation{
+        width: 100%;
+        height: 500px;
+        background: url('images/respons.webp') no-repeat center/cover;
+        animation: none;
+    }
+
+    .welcome-slide-body{
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .welcome-text{
+        color: grey;
+    }
+
+    /* About Section */
+    .about-header{
+        margin-bottom: 20px;
+    }
+    #about-main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-txt{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    /* Food Section */
+    .food-type{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .food-type-bg{
+        background-color: #4b4b4b;
+    }
+
+    .food-item-title-responsive{
+        color: #3ae374;
+    }
+
+    .food-item-description-respons{
+        color: whitesmoke;
+    }
+
+    /* Service Section */
+    .services{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .box-margin-respons{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+}
